@@ -1,0 +1,25 @@
+.card {
+  border: 2px dashed white;
+  border-radius: 10px;
+  width: 143px;
+  height: 200px;
+  background: rgba(white, .5);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 4px;
+
+  &.active {
+    margin: 0;
+    border: 6px solid rgba(red, .5);
+  }
+
+  .back {
+    background: url('../../assets/back.jpg') no-repeat;
+    width: 143px;
+    height: 200px;
+  }
+}
